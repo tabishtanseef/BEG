@@ -1,0 +1,161 @@
+<html>
+<head>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+td{
+text-align:center;
+}
+body{
+ background-image: linear-gradient(to bottom right, orange, yellow);
+background-attachment:fixed;
+background-position:cover;
+}
+table{
+ background-color:#0071B2;
+
+ }
+h1{
+ padding:10px;
+text-align:center;
+
+font-family:roboto condensed, cursive;
+
+
+font-weight:bold;
+}
+select{
+margin-top:10px;
+}
+.block {
+    display: block;
+    width: 80%;
+    border: none;
+    background-color: #ffffff8f;
+	font-family:Museo;
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: left;
+}
+.hidden{
+display:none;
+}
+a:hover{
+text-decoration:none;
+}
+#dim{
+margin-top:10px;
+}
+audio{
+
+margin:30px;
+}
+@media only screen and (max-device-width: 480px) {
+      img{
+	  height:auto;
+	  width:100%;
+	  margin-top:50px;
+	  }
+	  #dim{
+	  width:100%;
+	   margin-top:40px;
+	  }
+    }
+
+ @media only screen and (min-device-width: 481px) {
+      
+    }
+</style>
+  
+  </head>
+<body>
+
+
+<center>
+
+
+
+<div class="container">
+	<div class="row" >
+	<div style="border:1px;"class="col-sm-12 col-lg-5">
+	<br>
+	<img src="pic.png" width="100%" height="auto">
+	</div>
+	<div class="col-sm-12 col-lg-7">
+	<br><br>
+	<h1 >Content</h1>
+	
+	<button type="button" class="block" onclick="song2(1)" ><span style="color:red;">Chapter 1</span> - The Sentence</button><br>
+	<div class="row hidden" id="row1">
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-1/activity-1/index.html"><button type="button" class="btn btn-info"  >Activity 1</button></a>
+		</div>
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-1/activity-2/index.html"><button type="button" class="btn btn-info"  >Activity 2</button></a>
+		</div>
+	</div>
+	
+	<br>
+	<button type="button" class="block" onclick="song2(2)" ><span style="color:red;">Chapter 2</span> - Subject and Predicate</button><br>
+	<div class="row hidden" id="row2">
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-2/activity-1/index.html"><button type="button" class="btn btn-info"  >Activity 1</button></a>
+		</div>
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-2/activity-2/index.html"><button type="button" class="btn btn-info"  >Activity 2</button></a>
+		</div>
+	</div>
+	
+	
+	<br>
+	<button type="button" class="block" onclick="song2(3)"  ><span style="color:red;">Chapter 3</span> - The Noun and Kinds of Nouns</button><br>
+	<div class="row hidden" id="row3">
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-3/activity-1/index.html"><button type="button" class="btn btn-info"  >Activity 1</button></a>
+		</div>
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-3/activity-2/index.html"><button type="button" class="btn btn-info"  >Activity 2</button></a>
+		</div>
+	</div>
+	
+	
+	<br>
+	<button type="button" class="block" onclick="song2(4)"  ><span style="color:red;">Chapter 4</span> - Nouns-The Possessive Case</button><br>
+	<div class="row hidden" id="row4">
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-4/activity-1/index.html"><button type="button" class="btn btn-info"  >Activity 1</button></a>
+		</div>
+		<div style="border:1px;"class="col-sm-6">
+		<a href="ch-4/activity-2/index.html"><button type="button" class="btn btn-info"  >Activity 2</button></a>
+		</div>
+	</div>
+	
+	
+	</div>
+	
+	</div>
+	
+	
+	
+	
+	<div class="row" id="dim" >
+	<div class="col-sm-12">
+	</div>
+	</div>
+	
+</div>
+
+</center>
+<script>
+function song2(a) {
+
+$('#row'+a).removeClass("hidden");  
+
+}
+</script>
+</body>
+</html>

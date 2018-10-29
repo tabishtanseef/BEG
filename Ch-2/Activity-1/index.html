@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Drag the words</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+	<script src="js/data.js" type="text/javascript"></script>
+	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.js" type="text/javascript"></script>
+	<script src="js/jquery.ui.touch-punch.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+<h1 style="width:100%; text-align:center; background-color:#ffffff8f; padding:10px;">Basic English Grammar</h1>
+<h2 style="width:100%; text-align:center; background-color:#ffffff8f; padding:10px;"> Divide the sentences given below into Subject and Predicate.</h2>
+
+
+<div class="wrapper">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding:7px;">
+				<div class="questions">
+				<ul style="list-style:none;" id="ques-info">
+					
+				</ul>
+				
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="padding:2px;">
+				<div class="sol-div">
+					<center><h2 style="font-family:roboto;">Subject</h2></center>
+					<div class="drop-box" id="softDrop">
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="padding:2px;">
+				<div class="sol-div">
+					<center><h2 style="font-family:roboto;">Predicate</h2></center>
+					<div class="drop-box" id="hardDrop">
+						
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		
+		
+		
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="footer">
+					<button style=" font-size:25px; color:white; background-color:brown;"class="btn submit" id="btnSubmit" onclick="tab()">Submit</button> 
+					
+				</div>
+			</div>
+			<div class="col-lg-4">
+				
+			</div>
+			<div class="col-lg-4">
+				<div class="footer">
+					
+					<button style=" font-size:25px; color:white; background-color:brown;" class="btn" id="btnTry" onclick="location.reload()">Reset</button>
+				</div>
+			</div>
+			<br>
+		</div>
+		<br><br>
+	 </div>
+</div>
+
+<div class="tab hidden">
+<img src="img/welldone.gif" height="auto" width="100%">
+</div>
+
+
+</body>
+</html>

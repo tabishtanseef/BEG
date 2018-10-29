@@ -1,0 +1,340 @@
+<html>
+<head>
+<link href="style2.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+td{
+margin-top:20%;
+
+}
+body{
+background-color: #bfe072;
+background-attachment:fixed;
+background-position:cover;
+}
+table{
+ background-color:#0071B2;
+ }
+h2{
+text-align:center;
+background-color: #e6ffad;
+font-family:Roboto, Roboto Condensed, cursive; 
+color:#394421;
+padding-bottom:5px;
+padding-top:5px;
+}
+select{
+margin-top:10px;
+}
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+	color:red;
+	font-family:Museo;
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+}
+.hidden{
+display:none;
+}
+.button {
+    position: relative;
+    background-color: #394421;
+    border: none;
+	margin-top: 10px;
+	margin-left: 45px;
+    font-size: 25px;
+	font-family:CAC Moose, cursive;
+    color: #FFFFFF;
+    padding: 1px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+	color:#FFFF00;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+
+}
+#dim{
+margin-top:10px;
+font-family:Museo 700;
+font-size:20px;
+
+}
+@media only screen and (max-device-width: 480px) {
+      img{
+	  height:auto;
+	  width:100%;
+	  margin-top:50px;
+	  }
+	  #dim{
+	  padding:0px;
+	  text-align:left;
+	  width:100%;
+	  font-size:24px;
+	   margin-top:40px;
+	   font-size:20px;
+	   
+	  }
+	  h2{
+	  margin-top:50px;
+	  }
+    }
+
+ @media only screen and (min-device-width: 481px) {
+       img{
+	  height:100%;
+	  }
+    }
+</style>
+  
+  </head>
+<body>
+
+<div class="tab1">
+<h2><b>BASIC ENGLISH GRAMMAR </b></h2>
+<h2 style="margin-top: 10px; margin-bottom:-20px; font-size: 26px; ">Read these sentences and state their kind by dragging the words from the box into <br>the blank next to each sentence. </h2>
+<br>
+<br>
+<br>
+<div class="container" style ="margin-top:-10px";>		
+	<div class="row" id="dim" style ="margin-top:-22px";>
+	<div class="col-sm-5"  >
+	1. The tailor does not open his shop on Sundays.
+	</div>
+	<div class="col-sm-6"  >
+	<select id="1"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Negative</span><hr class="dashed">
+	
+	</div>
+	</div>
+	<div class="row" id="dim" style ="margin-top:-15px"; >
+	<div class="col-sm-5">
+	2. How many children travel in your van?
+	</div>
+	<div class="col-sm-6"  >
+	<select id="2"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Interrogative</span><hr class="dashed">
+	
+	</div>
+	</div>
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	3. The girls have not joined the karate classes.
+	</div>
+	<div class="col-sm-6">
+	<select id="3"><option selected disabled> 
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Negative</span><hr class="dashed">
+	
+	</div>
+	</div>
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	4. Close the window.
+	</div>
+	<div class="col-sm-6">
+	<select id="4"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Imperative</span><hr class="dashed">
+	
+	</div>
+	</div>
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	5. Is it raining?
+	</div>
+	<div class="col-sm-6">
+	<select id="5"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Interrogative</span><hr class="dashed">
+	
+	</div>
+	</div>
+	
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	6. What a beautiful garden!&nbsp;
+	</div>
+	<div class="col-sm-6">
+	<select id="6"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Exclamatory</span><hr class="dashed">
+	
+	</div>
+	</div>
+	
+	
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	7. Get me a plate.&nbsp;
+	</div>
+	<div class="col-sm-6">
+	<select id="7"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Imperative</span><hr class="dashed">
+	
+	</div>
+	</div>
+	
+	
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	8. My favourite colour is blue.
+	</div>
+	<div class="col-sm-6">
+	<select id="8"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Assertive</span><hr class="dashed">
+	
+	</div>
+	</div>
+	
+	
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	9. Oh no! I forgot to bring my phone.&nbsp;
+	</div>
+	<div class="col-sm-6">
+	<select id="9"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Exclamatory</span><hr class="dashed">
+	
+	</div>
+	</div>
+	
+	
+	<div class="row" id="dim" style ="margin-top:-15px";  >
+	<div class="col-sm-5">
+	10. Do you want to join the Drama Club?
+	</div>
+	<div class="col-sm-6">
+	<select id="10"><option selected disabled>     
+	</option><option>Assertive</option><option>Negative</option><option>Imperative</option><option>Interrogative</option><option>Exclamatory</option></select>
+	<span style="color:#FF0000; font-weight:bold;" class="hidden">&nbsp; &nbsp;  Interrogative</span><hr class="dashed">
+	
+	</div>
+	</div>
+	
+	
+    	
+	
+    
+    	
+    
+    
+	<div class="row" >
+	<div class="col-sm-4">
+<button class="button"   onclick="ho()"><span>Reset </span></button>
+	</div>
+	
+	<div class="col-sm-4">
+	<button class="button" onClick="go()" ><span>Submit </span></button>
+	</div>
+
+	<div class="col-sm-4">
+	<button class="button" onClick="show()"><span>Answer Key </span></button>
+	</div>
+	</div>
+</div>
+
+
+</div>
+
+<div class="tab4 hidden">
+<img  width="100%" height="100%" src="audio/welldone.gif">
+</div>
+
+<audio id="audio2" src="audio/try-again.mp3"></audio>
+<audio id="audio1" src="audio/well-done.mp3"></audio>
+
+<script>
+function ho() {
+ 
+window.location="index.html"
+}
+function show() {
+ 
+	   $('span').removeClass('hidden')
+	   
+
+}
+function go() {
+ var a1 = document.getElementById("1");
+ var a2 = document.getElementById("2");
+ var a3 = document.getElementById("3");
+ var a4 = document.getElementById("4");
+ var a5 = document.getElementById("5");
+ var a6 = document.getElementById("6");
+ var a7 = document.getElementById("7");
+ var a8 = document.getElementById("8");
+ var a9 = document.getElementById("9");
+ var a10 = document.getElementById("10");
+ 
+
+
+
+var ans1 = a1.options[a1.selectedIndex].text;
+var ans2 = a2.options[a2.selectedIndex].text;
+var ans3= a3.options[a3.selectedIndex].text;
+var ans4= a4.options[a4.selectedIndex].text;
+var ans5= a5.options[a5.selectedIndex].text;
+var ans6= a6.options[a6.selectedIndex].text;
+var ans7= a7.options[a7.selectedIndex].text;
+var ans8= a8.options[a8.selectedIndex].text;
+var ans9= a9.options[a9.selectedIndex].text;
+var ans10= a10.options[a10.selectedIndex].text;
+
+
+
+if(ans1=="Negative" && ans2=="Interrogative" && ans3=="Negative" && ans4=="Imperative" && ans5=="Interrogative" && ans6=="Exclamatory" && ans7=="Imperative" && ans8=="Assertive" && ans9=="Exclamatory" && ans10=="Interrogative"){
+
+var audio = document.getElementById("audio1");
+       audio.play();
+	   $('.tab1').addClass('hidden')
+	   $('.tab4').removeClass('hidden')
+}
+else{
+
+var audio = document.getElementById("audio2");
+       audio.play();
+}
+}
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  font-family: "Museo 700";
+  font-size: 20px;
+  line-height: 1.42857143;
+  background-color: #ffae00;
+  /* background: url(../img/bg-main.jpg) no-repeat; */
+  background-size: 100% 100%;
+}
+
+.header{
+    font-family: Roboto;
+    text-align: center;
+    background: #ffffff8f;
+    padding: 1px;
+}
+
+.title-h2{
+	font-size:20px;
+	font-weight:600;
+	color:#000;
+	
+}
+
+.footer{
+    /*background: rgba(0, 0, 0, 0.23);
+    border: 1px solid rgb(53, 29, 29);*/
+    height: 60px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    /* position: absolute; */
+}
+#ques-info{
+	margin-top: 50px;padding:0 2px;
+}
+
+.hidden{
+	
+	display:none;
+}
+
+.ques-li{
+    margin: 10px;
+    background: #ffffff8f;
+    padding: 5px;
+    *border: 1px solid;
+    border-radius: 10px;
+}
+
+.sol-div{
+	margin: 50px 0 0 0;
+    background: #ffffff8f;
+	padding: 2px;
+	*border: 1px solid;
+    border-radius: 10px;
+	float:left;
+	width:100%;
+}
+
+.sol-div h2{font-size: 21px;width: 100%;padding:0 3px;}
+
+.drop-box{
+	/*margin: 10px;*/
+    background: #0000002b;
+	padding: 5px 0;
+	*border: 1px solid;
+    border-radius: 10px;
+	min-height:75px;
+	float:left;width:100%;
+}
+
+
+.draggable{padding: 1px;z-index: 999999;}
+
+.dropWord{border:1px solid #fff;padding:3px;border-radius:5px;margin:2px;float:left;}
+
+.bold{font-weight:bold;}
+
+
+

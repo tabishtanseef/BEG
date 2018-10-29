@@ -1,0 +1,396 @@
+<html>
+<head>
+<link href="style2.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+td{
+margin-top:20%;
+
+}
+body{
+background-color:#FFEC9F;
+background-attachment:fixed;
+background-position:cover;
+}
+table{
+ background-color:#0071B2;
+ }
+h2{
+text-align:center;
+background-color:#ffffff8f;
+font-family:Roboto, Roboto Condensed, cursive;
+padding-top:2px;
+padding-bottom:2px; 
+color:#604d08;
+}
+
+
+h4{
+text-align:center;
+background-color:#ffffff8f;
+font-family:Roboto, Roboto Condensed, cursive;
+padding-top:5px;
+padding-bottom:5px; 
+color:red;
+}
+
+
+select{
+margin-top:10px;
+}
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color:#ffffff8f;
+	font-family:Museo 700;
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+}
+.hidden{
+display:none;
+}
+.button {
+    position: relative;
+    background-color: #f4511e;
+    border: none;
+	margin-top: 30px;
+	margin-left: 45px;
+    font-size: 25px;
+	font-family:CAC Moose, cursive;
+    color: #FFFFFF;
+    padding: 1px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+	color:#FFFF00;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+
+}
+#dim{
+margin-top:10px;
+font-family:Museo 700;
+font-size:20px;
+.bwo{
+height:35px;
+
+}
+
+}
+@media only screen and (max-device-width: 480px) {
+      img{
+	  height:auto;
+	  width:100%;
+	  margin-top:50px;
+	  }
+	  #dim{
+	  padding:0px;
+	  text-align:left;
+	  width:100%;
+	  font-size:24px;
+	   margin-top:40px;
+	   font-size:20px;
+	   
+	  }
+	  h2{
+	  margin-top:50px;
+	  }
+    }
+
+ @media only screen and (min-device-width: 481px) {
+       img{
+	  height:100%;
+	  }
+    }
+</style>
+  
+  </head>
+<body>
+
+<div class="tab1">
+<h2>Basic English Grammar</h2>
+
+<h2 style="margin-top: 10px; margin-bottom: 10px; font-size: 26px; ">Select the suitable Collective 
+Nouns from the drop down and complete the sentences.</h2>
+
+<h4>gang,&nbsp;&nbsp; &nbsp;&nbsp;staff,&nbsp;&nbsp; &nbsp;&nbsp;quiver,&nbsp;&nbsp; &nbsp;&nbsp;cloud,&nbsp;&nbsp; &nbsp;&nbsp;class,&nbsp;&nbsp; &nbsp;&nbsp;sheaf,&nbsp;&nbsp; &nbsp;&nbsp;set,&nbsp;&nbsp; &nbsp;&nbsp;suite,</h4>
+<h4 style="margin-top:-9px;">brood,&nbsp;&nbsp; &nbsp;&nbsp;regiment,&nbsp;&nbsp; &nbsp;&nbsp;album,&nbsp;&nbsp; &nbsp;&nbsp;packet,&nbsp;&nbsp; &nbsp;&nbsp;library,&nbsp;&nbsp; &nbsp;&nbsp;clutch,&nbsp;&nbsp; &nbsp;&nbsp;team</h4>
+<br>
+<div class="container" style ="margin-top:20px";>		
+	<div class="row" id="dim" style ="margin-top:-12px";>
+	<div class="col-sm-1"  >
+	</div>
+	<div class="col-sm-5"  >
+	<b>1.</b>&nbsp; &nbsp; a <input type="text" id="tab1" size="6" class ="bwo">    
+	of  papers
+	</div>
+    <div class="col-sm-5"  >
+	<b>2.</b>&nbsp; &nbsp; an <input type="text" id="tab2" size="6" class ="bwo"> 
+    of photographs
+	</div>
+	</div>
+    
+    
+	<div class="row" id="dim" style ="margin-top:17px"; >
+	<div class="col-sm-1"  >
+	</div>
+	<div class="col-sm-5">
+	<b>3.</b>&nbsp; &nbsp; a <input type="text" id="tab3" size="6" class ="bwo"> 
+	of arrows	
+	</div>
+    <div class="col-sm-5">
+	<b>4.</b>&nbsp; &nbsp; a <input type="text" id="tab4" size="6" class ="bwo">     
+	of rooms
+	</div>
+	</div>
+    
+    
+    
+    <div class="row" id="dim" style ="margin-top:17px"; >
+	<div class="col-sm-1"  >
+	</div>
+	<div class="col-sm-5">
+	<b>5.</b>&nbsp; &nbsp; a <input type="text" id="tab5" size="6" class ="bwo">     
+	of dust
+	</div>
+    <div class="col-sm-5">
+	<b>6.</b>&nbsp; &nbsp; a <input type="text" id="tab6" size="6" class ="bwo">     
+	of books
+	</div>
+	</div>
+    
+    
+    <div class="row" id="dim" style ="margin-top:17px"; >
+	<div class="col-sm-1"  >
+	</div>
+	<div class="col-sm-5">
+	<b>7.</b>&nbsp; &nbsp; a <input type="text" id="tab7" size="6" class ="bwo">
+	of eggs
+	</div>
+    <div class="col-sm-5">
+	<b>8.</b>&nbsp; &nbsp; a <input type="text" id="tab8" size="6" class ="bwo">     
+	of thieves
+	</div>
+	</div>
+    
+	
+	
+	 <div class="row" id="dim" style ="margin-top:17px"; >
+	 <div class="col-sm-1"  >
+	</div>
+	<div class="col-sm-5">
+	<b>9.</b>&nbsp; &nbsp; a <input type="text" id="tab9" size="6" class ="bwo">    
+	of soldiers
+	</div>
+    <div class="col-sm-5">
+	<b>10.</b>&nbsp; &nbsp; a <input type="text" id="tab10" size="6" class ="bwo">    
+	of teachers
+	</div>
+	</div>
+	
+	
+	
+	 <div class="row" id="dim" style ="margin-top:17px"; >
+	 <div class="col-sm-1"  >
+	</div>
+	<div class="col-sm-5">
+	<b>11.</b>&nbsp; &nbsp; a <input type="text" id="tab11" size="6" class ="bwo">    
+	of footballers	
+	</div>
+    <div class="col-sm-5">
+	<b>12.</b>&nbsp; &nbsp; a <input type="text" id="tab12" size="6" class ="bwo">     
+	of cups and saucers
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	 <div class="row" id="dim" style ="margin-top:17px"; >
+	 <div class="col-sm-1"  >
+	</div>
+	<div class="col-sm-5">
+	<b>13.</b>&nbsp; &nbsp; a <input type="text" id="tab13" size="6" class ="bwo">    
+	of children
+	</div>
+    <div class="col-sm-5">
+	<b>14.</b>&nbsp; &nbsp; a <input type="text" id="tab14" size="6" class ="bwo">    
+	of chicks
+	</div>
+	</div>
+	
+	
+	
+	
+	
+    
+	<div class="row" >
+	<div class="col-sm-4">
+<button class="button"   onclick="ho()"><span>Reset </span></button>
+	</div>
+	
+	<div class="col-sm-4">
+	<button class="button" onClick="go()" ><span>Submit </span></button>
+	</div>
+
+	<div class="col-sm-4">
+	<button class="button" onClick="show()"><span>Answer Key </span></button>
+	</div>
+	</div>
+</div>
+
+
+</div>
+
+<div class="tab4 hidden">
+<img  width="100%" height="100%" src="audio/welldone.gif">
+</div>
+
+<audio id="audio2" src="audio/try-again.mp3"></audio>
+<audio id="audio1" src="audio/well-done.mp3"></audio>
+
+<script>
+function ho() {
+ 
+window.location="index.html"
+}
+function show() {
+ 
+	   $('span').removeClass('hidden')
+	   
+
+}
+function go() {
+ var bla1 = $('#tab1').val();
+ var bla2 = $('#tab2').val();
+ var bla3 = $('#tab3').val();
+ var bla4 = $('#tab4').val();
+ var bla5 = $('#tab5').val();
+ var bla6 = $('#tab6').val();
+ var bla7 = $('#tab7').val();
+ var bla8 = $('#tab8').val();
+ var bla9 = $('#tab9').val();
+ var bla10 = $('#tab10').val();
+ var bla11 = $('#tab11').val();
+ var bla12 = $('#tab12').val();
+ var bla13 = $('#tab13').val();
+ var bla14 = $('#tab14').val();
+ 
+
+
+
+
+if(bla1=="sheaf" && bla2=="album" && bla3=="quiver" && bla4=="suite" && bla5=="cloud" && bla6=="library" && bla7=="clutch" && bla8=="gang" && bla9=="regiment"
+ && bla10=="staff" && bla11=="team" && bla12=="set" && bla13=="class"  && bla14=="brood") {
+
+var audio = document.getElementById("audio1");
+       audio.play();
+	   $('.tab1').addClass('hidden')
+	   $('.tab4').removeClass('hidden')
+}
+else{
+
+var audio = document.getElementById("audio2");
+       audio.play();
+}
+}
+function ho() {
+ 
+window.location="index.html"
+}
+function show() {
+ 
+	var t1=document.getElementById("tab1");
+	$("#tab1").css("color","red");
+	t1.value = "sheaf";
+	
+	var t2=document.getElementById("tab2");
+	$("#tab2").css("color","red");
+	t2.value = "album";
+	
+	var t3=document.getElementById("tab3");
+	$("#tab3").css("color","red");
+	t3.value = "quiver";
+	
+	var t4=document.getElementById("tab4");
+	$("#tab4").css("color","red");
+	t4.value = "suite";
+	
+	var t5=document.getElementById("tab5");
+	$("#tab5").css("color","red");
+	t5.value = "cloud";
+	
+	var t6=document.getElementById("tab6");
+	$("#tab6").css("color","red");
+	t6.value = "library";
+	
+	var t7=document.getElementById("tab7");
+	$("#tab7").css("color","red");
+	t7.value = "clutch";
+	
+	var t8=document.getElementById("tab8");
+	$("#tab8").css("color","red");
+	t8.value = "gang";
+	
+	var t9=document.getElementById("tab9");
+	$("#tab9").css("color","red");
+	t9.value = "regiment";
+	
+	var t10=document.getElementById("tab10");
+	$("#tab10").css("color","red");
+	t10.value = "staff";
+	
+	var t11=document.getElementById("tab11");
+	$("#tab11").css("color","red");
+	t11.value = "team";
+	
+	var t12=document.getElementById("tab12");
+	$("#tab12").css("color","red");
+	t12.value = "set";
+	
+	var t13=document.getElementById("tab13");
+	$("#tab13").css("color","red");
+	t13.value = "class";
+	
+	var t14=document.getElementById("tab14");
+	$("#tab14").css("color","red");
+	t14.value = "brood";
+	
+	
+
+}
+
+
+</script>
+
+</body>
+</html>
